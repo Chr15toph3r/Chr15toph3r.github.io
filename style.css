@@ -1,6 +1,31 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 pre {
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', monospace;
+    white-space: pre; 
+    word-wrap: normal;
+    overflow: auto;
+}
+
+
+
+#inputLine {
+    color: white; 
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-family: 'Courier New', monospace;
+}
+
+#response {
     color: white;
+    font-family: 'Courier New', monospace;
+
+}
+
+#terminal {
+    color: white;
+    font-family: 'Courier New', monospace;
 }
